@@ -28,7 +28,6 @@ fun generarRombo() {
     print("Ingrese el número límite para el rombo: ")
     val limite = readLine()!!.toInt()
 
-    // Generar la mitad superior del rombo
     for (i in 1..limite) {
         for (j in 1..(limite - i)) {
             print(" ")
@@ -39,7 +38,6 @@ fun generarRombo() {
         println()
     }
 
-    // Generar la mitad inferior del rombo
     for (i in (limite - 1) downTo 1) {
         for (j in 1..(limite - i)) {
             print(" ")
